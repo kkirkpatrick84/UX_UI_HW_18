@@ -1,0 +1,148 @@
+/* Navigation styles */
+.logo {
+    background:lightblue;
+    height: 230px;
+    background-image: url("../images/jakes-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .nav {
+  
+    display: flex;
+    background-color: lightblue;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .nav a {
+    color:black;
+    margin: 30px;
+    margin-top: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    font-family:arial;
+  }
+  
+  .left, .center, .right {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left, .center2 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  .center {
+    width: 50%;
+  }
+  
+  .center a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:arial;
+  }
+  
+  .right button {
+    background-color: yellow;
+    color:black;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+  }
+  
+  .left button {
+    background-color: skyblue;
+    color:black;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+  }
+  
+  /* Column styles */
+  .column {
+    display: flex;
+    width: 800px; 
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .pic1, .pic2, .pic3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }
+  .pic1 {
+    margin-top:20px;
+    background-image: url("../images/steak.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  
+  }
+  .pic2 {
+    background-image: url("../images/soup.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .pic3 {
+    background-image: url("../images/cheesecake.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .text {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+  }
+  .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100px;
+  }
+  
+  .footer a {
+    padding: 20px 40px 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+    font-size: 24px
+  }
+  
+  .ig {
+    color: white;
+  }
+  
+  .fb {
+    color: white;
+  }
+  
+  .tw {
+    color: white;
+  }
+  
